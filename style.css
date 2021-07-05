@@ -1,0 +1,383 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    margin: 0%;
+}
+
+@font-face {
+    font-family: Gothic;
+    src: url("./Fonts/GOTHIC.TTF");
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1A1A1A;
+    padding-left: 30px;
+    padding-right: 30px;
+    position:fixed;
+}
+
+.header a {
+    color:white;
+    text-decoration: none;
+    font-family: Gothic  ;
+}
+
+.myname {
+    padding-right: 1445px;
+}
+
+.header a:hover {
+    color:#FF4747;
+}
+
+.head {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.info {
+    background-image: url("./Pictures/background.jpg");
+    display: flex;
+    background-color: red;
+}
+
+.bckgrnd {
+    width: 100%;
+}
+
+.mypic {
+    width: 10%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 35%;
+    left: 50%;
+    border-radius: 50%;
+}
+
+.name {
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 44%;
+    left: 50%;
+    font-size: 60px;
+    font-family: Gothic;
+}
+
+.id {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 52%;
+    left: 50%;
+    color: white;
+    font-family: Gothic;
+}
+
+.icons img {
+    width: 2%;
+}
+
+.email {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 59%;
+    left: 44%;
+}
+
+.facebook {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 59%;
+    left: 48%;
+}
+
+.instagram {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 59%;
+    left: 52%;
+}
+
+.twitter {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 59%;
+    left: 56%;
+}
+
+#AboutMe {
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10% 30px 20%;
+
+}
+
+.m1 {
+    font-family: Gothic;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.intro {
+    font-family: Gothic;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.portfoliohead {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.portfoliohead h1 {
+    color: white;
+    font-family: Gothic;
+}
+
+.portfoliocontents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Gothic;
+    justify-content: center;
+}
+
+.portfoliocontents h1 {
+    padding-top: 30px;
+}
+
+
+.projects {
+    display: flex;
+    flex-direction: row;
+}
+
+.ewallet {
+    display: flex;
+    padding: 20px;
+    background-color: #FF4747;
+    width: 350px;
+    height: 400px;
+    flex-direction: column;
+    margin-right:20px ;
+    border-radius: 5px;
+    box-shadow: 2px 2px grey;
+}
+
+
+.ezwallet {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+
+.ewallet h1{
+    color: white;
+    margin: 0;
+    font-size: 25px;
+}
+
+.ewallet p {
+    color: white;
+    font-family: Gothic;
+    font-size: 18px;
+    margin: 15px 0px 0px 0px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.ewallet p a {
+    text-decoration: none;
+    color: white;
+}
+
+.ewallet p a:hover {
+    color: black;
+}
+
+.todohub{
+    display: flex;
+    padding: 20px;
+    background-color:#1e81b0 ;
+    width: 350px;
+    height: 400px;
+    flex-direction: column;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px grey;
+}
+
+.todohubpic {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+
+.todohub h1 {
+    color: white;
+    margin: 0;
+    font-size: 25px;
+}
+
+.todohub p {
+    color: white;
+    font-family: Gothic;
+    font-size: 18px;
+    margin: 15px 0px 45px 0px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.todohub p a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0;
+}
+
+.todohub p a:hover {
+    color: black;
+}
+
+.demo {
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cert h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.certificates {
+    display: flex;
+    flex-direction: row;
+}
+
+.html {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.html h1 {
+   padding: 0;
+}
+
+.htmlpic{
+    width: 90%;
+    align-self: center;
+}
+
+.css {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.css h1 {
+    padding: 0;
+ }
+ 
+.csspic {
+    width: 90%;
+    align-self: center;
+}
+
+.c {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.c h1{
+    padding: 0;
+}
+
+.cpic {
+    width: 90%;
+    align-self: center;
+}
+
+footer {
+    color: white;
+    font-family: Gothic;
+    background-color: #2E2E2E;
+}
+
+.footer1 {
+    padding: 16px;
+    margin: 0px 14px 0px 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact {
+    width: 50%;
+    padding:10px ;
+}
+
+.contact p{
+    margin: 0;
+}
+
+.contact p a {
+    text-decoration: none;
+    color: #1e81b0;
+}
+
+.contact p a:hover {
+    color: white;
+}
+
+.sitemap {
+    width: 50%;
+}
+
+.sitemap h2 a {
+    text-decoration: none;
+    color: #1e81b0;
+}
+
+.sitemap h2 a:hover {
+    color: white;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px 0px 50px;
+    background-color: #171717;
+}
+
+.footer2 a{
+    text-decoration: none;
+    color: #1e81b0;
+
+}
+
+.footer2 a:hover{
+    color: white;
+}
+
+.credits {
+    width: 80%;
+   
+}
+
+.credits p{
+    margin: 10px 0px 10px 0px;
+}
+
+.source p{
+    margin: 10px 0px 10px 0px;
+}
